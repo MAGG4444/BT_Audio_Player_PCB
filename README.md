@@ -1,2 +1,4 @@
 # BT_Audio_Player_PCB
 Bluetooth-enabled audio player PCB for wireless audio playback and easy device integration.
+
+- This design is a Bluetooth speaker control board built around an RP2350 microcontroller, a BM83 Bluetooth audio module, and a MAX98357A digital audio amplifier. The BM83 handles Bluetooth pairing and wireless audio reception, the RP2350 manages system control and external interfaces, and the MAX98357A drives the speaker output. Supporting parts include a W25Q128 external flash for storage, an NCP1117-3.3 regulator for power, USB-C input with ESD protection, status LEDs, reset and boot buttons, debug and expansion headers, and speaker or microphone connectors. Overall, the board is intended to receive audio over Bluetooth, process and control it through the MCU, and output sound to a speaker in a compact, product-ready hardware design.
